@@ -32,7 +32,7 @@ def abc(urls):
     return rows
 
 def main():
-    st.title("Welcome! Data Analysis World...")
+    st.title("Welcome! Data Analysis World...///")
     entered_password = st.text_input("Enter Password:", type="password")
 
     if entered_password == "///":
