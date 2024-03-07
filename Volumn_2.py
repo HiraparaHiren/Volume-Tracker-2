@@ -13,7 +13,7 @@ def refresh_url(url):
     # Make a request to refresh the URL
     session.get(url)
     # Wait for some time for the page to fully load
-    time.sleep(2)
+    time.sleep(4)
 
 
 def process_url(url):
